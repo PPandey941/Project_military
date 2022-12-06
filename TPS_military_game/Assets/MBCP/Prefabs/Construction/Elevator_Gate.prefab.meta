@@ -6,9 +6,8 @@ labels:
 - Wall
 - Floor
 - Ceiling
-timeCreated: 1447887167
-licenseType: Store
-NativeFormatImporter:
+PrefabImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

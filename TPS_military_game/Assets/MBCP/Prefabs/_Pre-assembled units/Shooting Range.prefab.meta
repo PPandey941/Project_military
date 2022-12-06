@@ -4,9 +4,8 @@ labels:
 - Armory
 - Shooting
 - Target
-timeCreated: 1448382584
-licenseType: Store
-NativeFormatImporter:
+PrefabImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

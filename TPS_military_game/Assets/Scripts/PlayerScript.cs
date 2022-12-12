@@ -25,7 +25,7 @@ public class PlayerScript : MonoBehaviour
     float turnCalmVelocity;
     public Transform surfaceCheck;
     bool onSurface;
-    public float surfaceDistance = 0.4f
+    public float surfaceDistance = 0.4f;
     public LayerMask surfaceMask;
 
     // Start is called before the first frame update
@@ -74,7 +74,7 @@ public class PlayerScript : MonoBehaviour
 
     void Jump()
     {
-        if(input.GetButtonDown("Jump") && onSurface)
+        if(Input.GetButtonDown("Jump") && onSurface)
         {
             velocity.y = Mathf.Sqrt(jumpRange * -2 * gravity);
 

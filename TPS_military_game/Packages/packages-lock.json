@@ -1,6 +1,5 @@
 {
   "dependencies": {
-<<<<<<< Updated upstream
     "com.autodesk.fbx": {
       "version": "4.1.1",
       "depth": 2,
@@ -22,10 +21,6 @@
     },
     "com.unity.ads": {
       "version": "3.7.5",
-=======
-    "com.unity.collab-proxy": {
-      "version": "1.17.6",
->>>>>>> Stashed changes
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -79,6 +74,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
@@ -91,20 +93,24 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-<<<<<<< Updated upstream
         "com.unity.animation.rigging": "1.1.1",
         "com.unity.timeline": "1.6.4",
         "com.unity.cinemachine": "2.8.9",
         "com.unity.formats.fbx": "4.1.2"
-=======
+      }
+    },
+    "com.unity.feature.development": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
         "com.unity.ide.visualstudio": "2.0.16",
         "com.unity.ide.rider": "3.0.16",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.1.1",
         "com.unity.test-framework": "1.1.31",
-        "com.unity.testtools.codecoverage": "1.0.1"
->>>>>>> Stashed changes
+        "com.unity.testtools.codecoverage": "1.2.2"
       }
     },
     "com.unity.formats.fbx": {
@@ -156,6 +162,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.performance.profile-analyzer": {
+      "version": "1.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.purchasing": {
       "version": "4.5.1",
       "depth": 0,
@@ -192,6 +205,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.settings-manager": {
+      "version": "1.0.3",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
       "version": "1.1.31",
       "depth": 0,
@@ -200,6 +220,16 @@
         "com.unity.ext.nunit": "1.0.6",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.testtools.codecoverage": {
+      "version": "1.2.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.0.16",
+        "com.unity.settings-manager": "1.0.1"
       },
       "url": "https://packages.unity.com"
     },
